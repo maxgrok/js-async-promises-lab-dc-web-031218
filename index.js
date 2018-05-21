@@ -5,3 +5,15 @@ const questions = [
 ]
 
 let question;
+
+let questionContainer = document.querySelector('.question-container')
+
+function appendQuestion(){
+	let q = document.createElement('p')
+	q.innerText = questions[0].questionText
+	questionContainer.appendChild(q)
+}
+
+function askQuestionThen(time){
+	
+}
